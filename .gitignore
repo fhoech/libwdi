@@ -30,7 +30,6 @@ Makefile.in
 Release
 aclocal.m4
 autom4te.cache
-build64.h
 compile
 config.guess
 config.h*

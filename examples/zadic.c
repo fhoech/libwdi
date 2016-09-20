@@ -60,7 +60,7 @@ int __cdecl main(int argc, char *argv[])
 	struct wdi_device_info *device, *list;
 	char* path = "usb_driver";
 	static struct wdi_options_create_list cl_options = { 0 };
-	static struct wdi_options_prepare_driver pd_options = { 0 };
+	static struct wdi_options_prepare_driver pd_options = { 1 };
 
 	static int prompt_flag = 1;
 	static unsigned char iface = 0;
